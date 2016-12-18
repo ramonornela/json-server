@@ -1,9 +1,11 @@
 {
-  "name": "json-server",
-  "version": "0.9.0",
+  "name": "@ramonornela/json-server",
+  "version": "0.9.1",
   "description": "Serves JSON files through REST routes.",
   "main": "./lib/server/index.js",
-  "bin": "./bin/index.js",
+  "bin": {
+    "json-server": "./bin/index.js"
+  },
   "directories": {
     "test": "test"
   },
